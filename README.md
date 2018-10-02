@@ -1,8 +1,14 @@
 # expect_scripts
 expect scripts to automate mostly ssh operations related stuff
 
-./is_swiagent_installed.sh
+**Is rpm installed?**
+
+```
+./is_rpm_installed.sh
 Usage: <hostname/file> <hostname/file with hosts>
+```
+
+Notes: Password is typed in, which is more secure than passing it through cmd line
 
 Useful URLs:
 tcl playground : https://www.tutorialspoint.com/execute_tcl_online.php<br>
